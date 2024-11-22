@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hmodi - Cats</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+            text-align: center;
+        }
+        header {
+            background-color: #ffcccb;
+            padding: 20px;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        main {
+            padding: 20px;
+        }
+        main img {
+            max-width: 100%;
+            height: auto;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to hmodi</h1>
+        <p>A simple space for cat lovers</p>
+    </header>
+    <main>
+        <h2>All About Cats</h2>
+        <p>Cats are wonderful creatures that bring joy to millions of people worldwide. Here’s a picture of one to brighten your day:</p>
+        <img src="https://placekitten.com/800/400" alt="A cute kitten">
+    </main>
+    <footer>
+        <p>&copy; 2024 hmodi. All rights reserved.</p>
+    </footer>
+</body>
+</html>
